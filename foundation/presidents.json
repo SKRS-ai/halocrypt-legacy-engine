@@ -1,0 +1,13 @@
+{
+  "id": "USA-PRES-001",
+  "name": "George Washington",
+  "legacy_status": "The Immutable Foundation",
+  "halo_alignment": "High-Priority/Eternal",
+  "essence_data": {
+    "life_span": "1732-1799",
+    "key_achievement": "Established the precedent of peaceful transition of power.",
+    "historical_voice": "Stoic, Revolutionary, Architectural"
+  },
+  "geometry_type": "Doric_Column_Poly",
+  "blockchain_status": "Hashed"
+}
