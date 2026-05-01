@@ -1,0 +1,24 @@
+/* Temporal Gauge HUD */
+.temporal-gauge {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+    font-family: 'Architectural-Sans', sans-serif;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    padding-right: 15px;
+}
+
+.year-marker {
+    font-size: 1.5rem;
+    font-weight: 800;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.year-marker.active {
+    opacity: 1;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #00FFFF; /* Halo Glow */
+}
