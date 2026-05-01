@@ -1,0 +1,156 @@
+{
+  "project": "HaloCrypt Legacy Engine",
+  "sector": "Cultural Icons Foundation",
+  "data_hash": "SHA256-GENESIS-STARS-2026-MASTER",
+  "residents": [
+    {
+      "id": "ICON-001",
+      "name": "Rudolph Valentino",
+      "legacy_date": "1926-08-23",
+      "halo_stake": "STABLE_LEGACY",
+      "geometric_prostate": "Velvet_Obelisk",
+      "aura_color": "#D4AF37",
+      "essence_data": {
+        "persona_type": "The Silent Romantic",
+        "primary_legacy": "Global Cinematic Iconography",
+        "vibe_frequency": "Seductive/Melancholic"
+      },
+      "tags": ["Silent Film", "Latin Lover", "Hollywood Myth"]
+    },
+    {
+      "id": "ICON-002",
+      "name": "Lon Chaney",
+      "legacy_date": "1930-08-26",
+      "halo_stake": "HIGH_ELDER",
+      "geometric_prostate": "Metamorphic_Cube",
+      "aura_color": "#4B0082",
+      "essence_data": {
+        "persona_type": "Man of a Thousand Faces",
+        "primary_legacy": "Practical Effects & Transformation",
+        "vibe_frequency": "Unsettling/Masterful"
+      },
+      "tags": ["Horror", "Makeup Pioneer", "Phantom"]
+    },
+    {
+      "id": "ICON-003",
+      "name": "Hattie McDaniel",
+      "legacy_date": "1952-10-26",
+      "halo_stake": "MAX_ETERNAL",
+      "geometric_prostate": "Golden_Oscar_Node",
+      "aura_color": "#FFD700",
+      "essence_data": {
+        "persona_type": "The Barrier Breaker",
+        "primary_legacy": "First African American Oscar Winner",
+        "vibe_frequency": "Resilient/Warm"
+      },
+      "tags": ["Trailblazer", "Radio", "Film History"]
+    },
+    {
+      "id": "ICON-004",
+      "name": "Bela Lugosi",
+      "legacy_date": "1956-08-16",
+      "halo_stake": "STABLE_LEGACY",
+      "geometric_prostate": "Gothic_Spires",
+      "aura_color": "#800000",
+      "essence_data": {
+        "persona_type": "The Eternal Count",
+        "primary_legacy": "Archetypal Horror Performance",
+        "vibe_frequency": "Hypnotic/Dark"
+      },
+      "tags": ["Dracula", "Gothic", "Stage"]
+    },
+    {
+      "id": "ICON-005",
+      "name": "Humphrey Bogart",
+      "legacy_date": "1957-01-14",
+      "halo_stake": "HIGH_ELDER",
+      "geometric_prostate": "Noir_Shadow_Prism",
+      "aura_color": "#C0C0C0",
+      "essence_data": {
+        "persona_type": "The Hard-Boiled Hero",
+        "primary_legacy": "Defining the American Leading Man",
+        "vibe_frequency": "Cynical/Noble"
+      },
+      "tags": ["Noir", "Casablanca", "Rat Pack Founder"]
+    },
+    {
+      "id": "ICON-006",
+      "name": "Marilyn Monroe",
+      "legacy_date": "1962-08-05",
+      "halo_stake": "MAX_ETERNAL",
+      "geometric_prostate": "Platinum_Cylinder",
+      "aura_color": "#FF69B4",
+      "essence_data": {
+        "persona_type": "The Digital Icon",
+        "primary_legacy": "Universal Aesthetic Standard",
+        "vibe_frequency": "Luminous/Vulnerable"
+      },
+      "tags": ["Blonde Bombshell", "Pop Art", "Persona"]
+    },
+    {
+      "id": "ICON-007",
+      "name": "Buster Keaton",
+      "legacy_date": "1966-02-01",
+      "halo_stake": "STABLE_LEGACY",
+      "geometric_prostate": "Kinetic_Mechanism",
+      "aura_color": "#000080",
+      "essence_data": {
+        "persona_type": "The Great Stone Face",
+        "primary_legacy": "Physical Stunt Architecture",
+        "vibe_frequency": "Stoic/Brilliant"
+      },
+      "tags": ["Comedy", "Stunts", "Silent Era"]
+    },
+    {
+      "id": "ICON-008",
+      "name": "Agatha Christie",
+      "legacy_date": "1976-01-12",
+      "halo_stake": "HIGH_ELDER",
+      "geometric_prostate": "Labyrinth_Sphere",
+      "aura_color": "#483D8B",
+      "essence_data": {
+        "persona_type": "The Narrative Architect",
+        "primary_legacy": "Best-Selling Fiction in History",
+        "vibe_frequency": "Calculated/Intriguing"
+      },
+      "tags": ["Mystery", "Author", "Hercule Poirot"]
+    },
+    {
+      "id": "ICON-009",
+      "name": "Charlie Chaplin",
+      "legacy_date": "1977-12-25",
+      "halo_stake": "MAX_ETERNAL",
+      "geometric_prostate": "The_Tramps_Cane",
+      "aura_color": "#FFFFFF",
+      "essence_data": {
+        "persona_type": "The Silent Voice",
+        "primary_legacy": "Global Humanism through Comedy",
+        "vibe_frequency": "Whimsical/Profound"
+      },
+      "tags": ["The Tramp", "Composer", "Director"]
+    },
+    {
+      "id": "ICON-010",
+      "name": "John Wayne",
+      "legacy_date": "1979-06-11",
+      "halo_stake": "STABLE_LEGACY",
+      "geometric_prostate": "Western_Frontier_Bloc",
+      "aura_color": "#8B4513",
+      "tags": ["The Duke", "Westerns", "American Symbol"]
+    },
+    {
+      "id": "ICON-011",
+      "name": "Greta Garbo",
+      "legacy_date": "1990-04-15",
+      "halo_stake": "STABLE_LEGACY",
+      "geometric_prostate": "Sphinx_Monolith",
+      "aura_color": "#708090",
+      "essence_data": {
+        "persona_type": "The Enigma",
+        "primary_legacy": "Redefining Celebrity Privacy",
+        "vibe_frequency": "Reclusive/Divine"
+      },
+      "tags": ["Silent to Sound", "European Star"]
+    }
+  ]
+}
