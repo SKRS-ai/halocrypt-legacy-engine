@@ -1,0 +1,88 @@
+:root {
+    --bg-navy: #0A0F1E;
+    --halo-cyan: #00FFFF;
+    --glass-white: rgba(255, 255, 255, 0.1);
+    --text-pure: #FFFFFF;
+}
+
+body.necropolis-theme {
+    background-color: var(--bg-navy);
+    margin: 0;
+    overflow: hidden; /* We handle scrolling via the Gauge */
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color: var(--text-pure);
+}
+
+/* Glassmorphism Navigation */
+.glass-nav {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    padding: 15px;
+    background: var(--glass-white);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
+
+#legacySearch {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    width: 250px;
+}
+
+/* The Temporal Gauge HUD */
+.temporal-hud {
+    position: fixed;
+    right: 40px;
+    top: 10%;
+    height: 80vh;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.year-vortex {
+    overflow-y: scroll;
+    height: 100%;
+    scrollbar-width: none; /* Hide for clean look */
+    mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+}
+
+.year-vortex::-webkit-scrollbar { display: none; }
+
+.year-node {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 200;
+    opacity: 0.3;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.year-node.active {
+    opacity: 1;
+    font-weight: 800;
+    font-size: 2.2rem;
+    color: var(--halo-cyan);
+    text-shadow: 0 0 15px var(--halo-cyan);
+}
+
+/* Dynamic Marker */
+.current-marker {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    width: 30px;
+    height: 2px;
+    background: var(--halo-cyan);
+    box-shadow: 0 0 10px var(--halo-cyan);
+}
